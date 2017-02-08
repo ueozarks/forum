@@ -9,9 +9,6 @@
 		<meta name="author" content="{{ site.author }}" />
 		<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png" />
 		<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="{{ site.baseurl }}/css/bootstrap-material-design.min.css" rel="stylesheet" />
-		<link href="{{ site.baseurl }}/css/ripples.min.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -19,7 +16,7 @@
 	    <![endif]-->
 	</head>
 	<body>
-
+		<div class="container">
 			<div class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,17 +33,12 @@
 					</ul>
 				</div>
 			</div>
-        <div class="container">
 			{{ content }}
 		</div>
 		<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
 		<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-		<script src="{{ site.baseurl }}/js/material.min.js"></script>
-		<script src="{{ site.baseurl }}/js/ripples.min.js"></script>
 		<script src="{{ site.baseurl }}/js/jquery-mustache.js"></script>
 		<script src="{{ site.baseurl }}/js/mustache.js"></script>
 		{% for script in page.scripts %}<script src="{{ site.baseurl }}{{ script }}"></script>{% endfor %}
-        <script>$.material.init()</script>
-		
 	</body>
 </html>
