@@ -19,7 +19,7 @@ url: https://sgtsgi.github.io/forum
 exclude: [.gitignore]
 
 # The disqus shortname for your forum
-disqus_shortname: sgtsgi
+disqus_shortname: sgtsgiforum
 
 # The public key for your disqus application
 disqus_publickey: 4vDjpnfgQ95ET57cMRPGhF7gRNCWbUzz9swl3jlfmxZiHJAQvJnk41hNyovrGWLN

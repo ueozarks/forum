@@ -1,12 +1,12 @@
 ---
 layout: category
-title: General Help
+title: Test
 category: true
-summary: Get help with any aspect of the Jekyll Disqus Forum.
-id: 2736939
+summary: Testing
+id: 6273731
 group-id: help
 ---
 
-# General help
+# test
 
-Get help with any aspect of the Jekyll Disqus Forum.
+Testing
