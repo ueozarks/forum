@@ -45,9 +45,9 @@
 		<script src="{{ site.baseurl }}/js/ripples.min.js"></script>
 		<script src="{{ site.baseurl }}/js/jquery-mustache.js"></script>
 		<script src="{{ site.baseurl }}/js/mustache.js"></script>
-        <script>
-        $.material.init()
-        </script>
-		{% for script in page.scripts %}<script src="{{ site.baseurl }}{{ script }}"></script>{% endfor %}
+        {% for script in page.scripts %}<script src="{{ site.baseurl }}{{ script }}"></script>{% endfor %} 
+        
+        <script>$.material.init()</script>
+		
 	</body>
 </html>
