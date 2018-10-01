@@ -12,15 +12,15 @@ author: SGTSGI
 # Example, you must use http://localhost:4000/path/to/blog
 baseurl: /forum
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: https://sgtsgi.github.io/forum
+url: https://ueozarks.github.io/forum
 
 # Exclude system files
 exclude: [.gitignore]
 
 # The disqus shortname for your forum
-disqus_shortname: sgtsgiforum
+disqus_shortname: ueozarks
 
 # The public key for your disqus application
-disqus_publickey: 4vDjpnfgQ95ET57cMRPGhF7gRNCWbUzz9swl3jlfmxZiHJAQvJnk41hNyovrGWLN
+disqus_publickey: 2eh5oDEoGHmUo7Q9Q0TRTEOsUtNKcX7TDLrtv8EoXfmvxM7nZEWBTuHqyN2IGjFb
 
 
